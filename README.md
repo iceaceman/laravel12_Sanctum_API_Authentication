@@ -59,3 +59,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Installation Instructions
+
+   1. Run `git clone https://github.com/iceaceman/laravel12_Sanctum_API_Authentication.git`
+   2. Run 'sudo curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash - && sudo apt-get install -y nodejs'
+   3. cd laravel12_Sanctum_API_Authentication
+   4. Run 'composer install'
+   5. Run 'cp .env.example .env' or 'copy .env.example .env'
+   6. Run 'php artisan migrate'
