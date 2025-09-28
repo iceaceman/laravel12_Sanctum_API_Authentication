@@ -69,4 +69,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
    4. Run `cd backend`
    5. Run 'composer install'
    6. Run 'cp .env.example .env' or 'copy .env.example .env'
-   7. Run 'php artisan migrate'
+   7. Run `cd storage`
+   8. Run `sudo mkdir -p framework/{sessions,views,cache}`
+   9. Run `cd ..`
+   10. Run `chmod -R 775 storage`
+   11. Run 'php artisan migrate'
