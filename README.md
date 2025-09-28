@@ -65,7 +65,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
    1. Run `git clone https://github.com/iceaceman/laravel12_Sanctum_API_Authentication.git`
    2. Run 'sudo curl -fsSL https://deb.nodesource.com/setup_20.x | sudo bash - && sudo apt-get install -y nodejs'
-   3. cd laravel12_Sanctum_API_Authentication
-   4. Run 'composer install'
-   5. Run 'cp .env.example .env' or 'copy .env.example .env'
-   6. Run 'php artisan migrate'
+   3. Run `mv laravel12_Sanctum_API_Authentication backend`
+   4. Run `cd backend`
+   5. Run 'composer install'
+   6. Run 'cp .env.example .env' or 'copy .env.example .env'
+   7. Run 'php artisan migrate'
